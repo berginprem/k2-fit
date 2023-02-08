@@ -2,8 +2,8 @@ console.log("vercel");
 const express = require('express');
 const path = require('path');
 const ejsMate = require('ejs-mate');
-const services = require('../routes/services');
-const plans = require('../routes/plans');
+const services = require('./routes/services');
+const plans = require('./routes/plans');
 
 const app = express();
 app.engine('ejs',ejsMate)
