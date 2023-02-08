@@ -21,6 +21,6 @@ app.use('/services', services);
 app.use('/plans', plans);
 
 
-app.listen(3000, ()=>{
+app.listen(process.env.port, ()=>{
     console.log('listening on port 3000');
 })
