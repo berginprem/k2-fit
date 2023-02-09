@@ -47,7 +47,7 @@
                         </li>
 
                         <div class="nav__link">
-                            <a href="https://wa.me/919444601634?text=I'm%20interested%20in%20you" target="_blank" id="register" class="button nav__button">
+                            <a href="https://wa.me/<%= process.env.PHONE %>?text=I'm%20interested%20in%20you" target="_blank" id="register" class="button nav__button">
                                Contact now
                             </a>
                         </div>
@@ -63,6 +63,34 @@
                     <i class="ri-menu-line"></i>
                 </div>
             </nav>
+        
+            <div class="glowing">
+    
+                <span style="--i:1;"></span>
+                
+                <span style="--i:2;"></span>
+                
+                <span style="--i:3;"></span>
+                
+              </div>
+            <div class="glowing">
+    
+                <span style="--i:1;"></span>
+                
+                <span style="--i:2;"></span>
+                
+                <span style="--i:3;"></span>
+                
+              </div>
+            <div class="glowing">
+    
+                <span style="--i:1;"></span>
+                
+                <span style="--i:2;"></span>
+                
+                <span style="--i:3;"></span>
+                
+              </div>
         </header>
 
         <main>
@@ -199,14 +227,14 @@
             </div>
 
             <div class="container" id="g-map">
-                <iframe id="map1" target="_blank" src="https://my.atlistmaps.com/map/b2e9380f-a8b2-4f7e-b88a-2b745dd981a1?share=true" allow="geolocation" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
+                <iframe src="https://my.atlistmaps.com/map/c0b12cca-6721-475f-ae9b-704cf8a09abe?share=true" allow="geolocation" width="100%" height="400px" frameborder="0" scrolling="no" allowfullscreen></iframe>
             </div>
             
             <section id="contact">
                 <div class="container">
                     <div class="footer__group" id="contact-us">
                         <ul class="footer__social">
-                            <a href="tel:919444601634" target="_blank" class="footer__social-link">
+                            <a href="tel:<%= process.env.PHONE %>" target="_blank" class="footer__social-link">
                                 <i class="ri-phone-fill"></i>
                             </a>
                             <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
@@ -234,7 +262,7 @@
 
         <!-- ===================Telephone================================ -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-        <a href="https://wa.me/919444601634?text=I'm%20interested%20in%20you" class="float" target="_blank">
+        <a href="https://wa.me/<%= process.env.PHONE %>?text=I'm%20interested%20in%20you" class="float" target="_blank">
             <i class="fa fa-whatsapp my-float"></i>
         </a>
 

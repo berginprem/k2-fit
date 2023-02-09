@@ -1,3 +1,4 @@
+require('dotenv').config();
 console.log("vercel");
 const express = require('express');
 const path = require('path');
@@ -21,7 +22,7 @@ app.use('/services', services);
 app.use('/plans', plans);
 
 
-app.listen(process.env.PORT, ()=>{
+app.listen(process.env.PORT||3000, ()=>{
     console.log('listening on port 3000');
 })
 module.exports = app;
