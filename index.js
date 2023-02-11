@@ -1,5 +1,4 @@
 require('dotenv').config();
-console.log(process.env.PHONE)
 console.log("vercel");
 const express = require('express');
 const path = require('path');
