@@ -240,7 +240,7 @@ img {
   padding: 5rem 0 0 3rem;
   display: flex;
   flex-direction: column;
-  row-gap: 2.5rem;
+  row-gap: 5vh;
 }
 
 .nav__link{
