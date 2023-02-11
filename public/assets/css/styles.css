@@ -989,7 +989,7 @@ svg{
   left: 1rem !important;
   width: 2rem;
   
-  bottom:20px !important;
+  bottom:-100px !important;
   background-color: var(--first-color) !important;
   display: inline-flex !important;
   padding: .35rem !important;
