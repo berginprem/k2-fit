@@ -240,7 +240,8 @@ img {
   padding: 5rem 0 0 3rem;
   display: flex;
   flex-direction: column;
-  row-gap: 5vh;
+  /* align-items: s; */
+  row-gap: 10px;
 }
 
 .nav__link{
