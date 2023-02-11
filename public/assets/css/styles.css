@@ -142,7 +142,7 @@ img {
 
 .section__title-border {
   -webkit-text-stroke: 1px var(--text-color);
-  color: transparent;
+  /* color: transparent; */
 }
 
 .grid {
@@ -171,9 +171,13 @@ img {
 }
 
 /*=============== HEADER & NAV ===============*/
+/* .nav .container{
+  background-color: black !important;
+} */
+
 .header {
   width: 100%;
-  background-color: hsl(0, 0%, 13%);
+  background-color: hsl(0, 0%, 13%) !important;
   position: fixed;
   top: 0;
   left: 0;
@@ -186,6 +190,7 @@ img {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: var(--body-color)!important;
 }
 
 .nav__logo,
@@ -213,7 +218,7 @@ img {
 @media screen and (max-width:1023px){
   .nav__menu{
     position: fixed;
-    background-color: hsla(180,12%,8%,.8);
+    background-color: hsla(180,12%,8%,.8) !important;
     backdrop-filter: blur(32px);
     -webkit-backdrop-filter: blur(32px);
     top: 0;
@@ -274,7 +279,7 @@ img {
 
 /* Change background header */
 .bg-header{
-  background-color: var(--body-color);
+  background-color: var(--body-color) !important;
   box-shadow: 0 4px 8px hsla(180,12%,4%,.3);
 }
 
@@ -302,7 +307,7 @@ img {
 .home__subtitle{
   font-size: var(--bigger-font-size);
   --webkit-text-stroke: 1px var(--title-color);
-  color: transparent;
+  /* color: transparent; */
 }
 
 .home__title{
@@ -981,6 +986,7 @@ svg{
 .scrollup{
   position: fixed !important;
   left: 1rem !important;
+  width: 2vw;
   
   bottom:100px !important;
   background-color: var(--first-color) !important;
@@ -1338,7 +1344,7 @@ body {
   height: 0px;
   margin: -150px;
   transform-origin: right;
-  animation: colorChange 5s linear infinite;
+  animation: colorChange 8s linear infinite;
   /* opacity: .5; */
 }
 
