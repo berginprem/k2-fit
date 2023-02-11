@@ -850,7 +850,7 @@ svg{
 .footer__form,
 .footer__social{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer__logo{
@@ -920,7 +920,7 @@ svg{
 
 .footer__social{
   column-gap: 1.25rem;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .footer__social-link{
