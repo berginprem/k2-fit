@@ -211,7 +211,7 @@ img {
 }
 
 .nav__toggle{
-  font-size: 1.25rem;
+  font-size: 2.5rem;
   cursor: pointer;
 }
 
@@ -986,9 +986,9 @@ svg{
 .scrollup{
   position: fixed !important;
   left: 1rem !important;
-  width: 2vw;
+  width: 2rem;
   
-  bottom:100px !important;
+  bottom:10px !important;
   background-color: var(--first-color) !important;
   display: inline-flex !important;
   padding: .35rem !important;
