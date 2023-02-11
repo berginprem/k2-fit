@@ -100,8 +100,8 @@ img {
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
   max-width: 1124px;
-  margin-right: 1.5rem;
-  margin-left: 1.5rem;
+  /* margin-right: 1.5rem; */
+  /* margin-left: 1.5rem; */
   
   
 }
@@ -746,7 +746,7 @@ img {
 
 .calculate__message{
   position: absolute;
-  transform: translate(Y1rem);
+  transform: translate(Y,1rem);
 }
 
 /* ===========FAQs============= */
@@ -1449,3 +1449,8 @@ body {
  #atlist{
   border-radius: 1rem;
  }
+
+ .row {
+  margin-right: -15px;
+  margin-left: -15px;
+}
