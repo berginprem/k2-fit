@@ -850,7 +850,7 @@ svg{
 .footer__form,
 .footer__social{
   display: flex;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .footer__logo{
@@ -886,7 +886,7 @@ svg{
 .footer__links,
 .footer__group{
   display: grid;
-  /* justify-content: center; */
+  justify-content: center;
 }
 
 .footer__content{
